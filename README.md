@@ -2,16 +2,6 @@
 
 
 ### Istruzioni per l'avvio
-#### Windows
-
-<ol>
-  <li>Mandare un messaggio all'infermiera dicendole di aprire le porte. (Di seguito il codice).</li>
-  <li>Insert name of addressee: infermiera.</li>
-  <li>Insert From: user.</li>
-  <li>Insert message: send_message(apri_visite,user).</li>
-</ol>
-
-#### MacOS/Linux
 
 <ol>
   <li>Mandare un messaggio all'infermiera dicendole di aprire le porte. (Di seguito il codice).</li>
