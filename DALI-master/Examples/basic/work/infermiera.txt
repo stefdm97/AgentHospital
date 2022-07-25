@@ -1,4 +1,0 @@
-apri_visiteE:>
-		messageA(paziente1,send_message(arriva_ospedale,Me)),
-		messageA(paziente2,send_message(arriva_ospedale,Me)),
-		messageA(paziente3,send_message(arriva_ospedale,Me)).
