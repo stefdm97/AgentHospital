@@ -5,8 +5,6 @@
 #### Windows
 
 <ol>
-  <li>Andare nella cartella Dali-master/Examples/basic</li>
-  <li>Eseguire startmas</li>
   <li>Mandare un messaggio all'infermiera dicendole di aprire le porte. (Di seguito il codice).</li>
   <li>Insert name of addressee: infermiera.</li>
   <li>Insert From: user.</li>
@@ -16,8 +14,6 @@
 #### MacOS/Linux
 
 <ol>
-  <li></li>
-  <li></li>
   <li>Mandare un messaggio all'infermiera dicendole di aprire le porte. (Di seguito il codice).</li>
   <li>Insert name of addressee: infermiera.</li>
   <li>Insert From: user.</li>
