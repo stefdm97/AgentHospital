@@ -1,0 +1,8 @@
+apri_visiteE(A,B,C,D,E,F):>
+	write('Infermiera fa passare entrare i pazienti'),
+	messageA(paziente1,send_message(arriva_ospedale(1,A),Me)),
+	messageA(paziente2,send_message(arriva_ospedale(2,B),Me)),
+	messageA(paziente3,send_message(arriva_ospedale(3,C),Me)),
+	messageA(paziente4,send_message(arriva_ospedale(4,D),Me)),
+	messageA(paziente5,send_message(arriva_ospedale(5,E),Me)),
+	messageA(paziente6,send_message(arriva_ospedale(6,F),Me)).

@@ -1,0 +1,13 @@
+:- dynamic (info_paziente/2).
+arriva_ospedaleE(Id,Priorita):>
+	assert(info_paziente(Id,Priorita)),
+	avvisa_medicoA.
+avvisa_medicoA:-
+	info_paziente(Id,Priorita),
+	messageA(medico,send_message(arriva_paziente(Id,Priorita),Me)).
+visita_pazienteE:>
+	write('Il paziente 4 si fa visitare...'),
+	messageA(medico,send_message(termina_visita(4),Me)).
+visita_finitaE:>
+	write('Il paziente 4 ha terminato la visita'),
+	retract(info_paziente(Id,Priorita)).
