@@ -7,7 +7,7 @@
   <li>Mandare un messaggio all'infermiera dicendole di aprire le porte. (Di seguito il codice).</li>
   <li>Insert name of addressee: infermiera.</li>
   <li>Insert From: user.</li>
-  <li>Insert message: send_message(apri_visite(Priorita1,...,Priorita6),user).</li>
+  <li>Insert message: send_message(apri_visite(Priorita1,...,Priorita6),user).  /* Le priorità vengono passate qui e indicano le priorità di visita che avranno i pazienti */</li>
 </ol>
 
 ### Descrizione del mas.
