@@ -7,8 +7,9 @@
   <li>Mandare un messaggio all'infermiera dicendole di aprire le porte. (Di seguito il codice).</li>
   <li>Insert name of addressee: infermiera.</li>
   <li>Insert From: user.</li>
-  <li>Insert message: send_message(apri_visite(Priorita1,...,Priorita6),user).    /* Le priorità vengono passate qui e indicano le priorità di visita che avranno i pazienti */</li>
+  <li>Insert message: send_message(apri_visite(Priorita1,...,Priorita6),user).</li>
 </ol>
+Le priorità (nel punto 4) vengono passate dall'utente e indicano le priorità di visita che avranno i pazienti per ogni ID paziente da 1 a 6 in quanto per l'esercizio ho utilizzato 6 agenti.
 
 ### Descrizione del mas.
 <p align="justify">In questo mas abbiamo 3 tipi di agenti: il medico, il paziente e l'infermiera. L'obiettivo dell'infermiera è quello di aprire le porte del pronto soccorso e assegnare le priorità per ogni paziente. Quindi attraverso l'evento apri_visiteE 'sveglia' gli agenti pazienti e li fa entrare in ospedale con una determinata priorità.
